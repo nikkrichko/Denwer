@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form name="template_demo" addfieldpath="/libraries/omg/elements/" >
+	<fields name="params_demo">
+		<fieldset name="params_demo">
+			<field name="preset" 
+				type="democolor" 
+				default="1" 
+				showdemo="1" 
+				class="democolor"
+				label="OTEMPLATES_PRESETS_FIELDSET_LABEL" 
+				description="OTEMPLATES_PRESETS_FIELDSET_DESC" >
+					<option value="1" class="demopreset">#A3A948</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>

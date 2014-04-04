@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" version="2.5" method="upgrade">
+    <name>OMG Templates Framework</name>
+    <creationDate>Dec 2012</creationDate>
+	<author>OmegaTheme.com</author>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>http://www.omegatheme.com</authorUrl>
+	<copyright>Copyright (C) 2009-2013 Omegatheme, NetQ Creative Software Co., Ltd. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<packagename>omg</packagename>
+	<version>2.0</version>
+	<url>http://www.omegatheme.com</url>
+	<packager>OmegaTheme.com</packager>
+	<packagerurl>http://www.omegatheme.com</packagerurl>
+	<description>
+	<![CDATA[ OMG template framework for Joomla! 2.5 was made to use for Omegatheme's Joomla! 2.5 templates. ]]>
+	</description>
+	<update>http://www.omegatheme.com</update>
+	<files folder="packages">
+		<file type="component" id="com_otemplates" >com_otemplates.zip</file>
+		<file type="library" id="lib_omg">lib_omg.zip</file>
+		<file type="plugin" id="omg" group="system">plg_omg.zip</file>
+	</files>
+</extension>

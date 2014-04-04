@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="omg_menu_params" label="OMG_MENU_OPTIONS_FIELDSET_LABEL" addfieldpath="/libraries/omg/elements/">
+			<field name="item_icon" type="media" label="OMG_MENU_ITEM_ICON_LABEL" description="OMG_MENU_ITEM_ICON_DESC" />
+			<field name="item_desc" 
+				type="text" 
+				default=""
+				size="30"
+				label="OMG_MENU_ITEM_DESCRIPTION_LABEL" 
+				description="OMG_MENU_ITEM_DESCRIPTION_DESC" />
+				
+			<field name="item_classSuffix" 
+				type="text" 
+				default=""
+				size="20"
+				label="OMG_MENU_LIST_ITEM_CLASS_SUFFIX_LABEL" 
+				description="OMG_MENU_LIST_ITEM_CLASS_SUFFIX_DESC" />
+			
+			<field name="colorchoser_script" 
+					type="ocolor" 
+					default="" 
+					label=" " 
+					description=" " />
+			
+			<field name="show_item_title" type="radio" default="1" label="OMG_MENU_SHOW_ITEM_TITLE_LABEL" description="OMG_MENU_SHOW_ITEM_TITLE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			
+			<field name="custom_item_color" type="radio" default="0" label="OMG_MENU_CUSTOM_ITEM_COLOR_LABEL" description="OMG_MENU_CUSTOM_ITEM_COLOR_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			
+			<field name="item_color" 
+				type="text" 
+				default="#666666" 
+				size="15" 
+				class="color {hash:true}" 
+				label="OMG_MENU_ITEM_TEXT_COLOR_LABEL" 
+				description="OMG_MENU_ITEM_TEXT_COLOR_DESC" />
+				
+			<field type="paramheading" level="3" default="" label="OMG_MENU_SUBMENU_LAYOUT_HEADING" description="" />
+			<field name="sub_width"
+					type="text" 
+					default="200" 
+					size="15" 
+					label="OMG_MENU_SUBMENU_BOX_WIDTH_LABEL" 
+					description="OMG_MENU_SUBMENU_BOX_WIDTH_DESC" />
+					
+			<field name="sub_margin"
+					type="text" 
+					default="5" 
+					size="15" 
+					label="OMG_MENU_SUBMENU_BOX_MARGIN_LABEL" 
+					description="OMG_MENU_SUBMENU_BOX_MARGIN_DESC" />
+			
+			<field name="sub_padding"
+					type="text" 
+					default="5" 
+					size="15" 
+					label="OMG_MENU_SUBMENU_BOX_PADDING_LABEL" 
+					description="OMG_MENU_SUBMENU_BOX_PADDING_DESC" />
+			
+			<field name="create_column" type="radio" default="0" label="OMG_MENU_CREATE_SUB_COLUMN_LABEL" description="OMG_MENU_CREATE_SUB_COLUMN_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			
+			<field type="paramheading" level="3" default="" label="OMG_MENU_SUBMENU_LOADMODULE_HEADING" description="" />
+			
+			<field name="load_module" type="radio" default="0" label="OMG_MENU_LOAD_MODULE_LABEL" description="OMG_MENU_LOAD_MODULE_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			
+			<field name="module_id"
+					type="modules" 
+					label="OMG_MENU_MODULE_LIST_LABEL" 
+					description="OMG_MENU_MODULE_LIST_DESC" />
+			<field name="module_style" type="list" default="0" label="OMG_MENU_MODULE_STYLE_LABEL" description="OMG_MENU_MODULE_STYLE_DESC">
+				<option value="none">RAW</option>
+				<option value="xhtml">XHTML</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>

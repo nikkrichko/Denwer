@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<extension group="system" method="upgrade" type="plugin" version="2.5">
+    <name>System - OMG</name>
+    <author>Omegatheme.com</author>
+    <creationDate>Dec 2012</creationDate>
+    <copyright>(C) 2009 - 2013 Omegatheme, NetQ Creative Software Co.,Ltd. All rights reserved.</copyright>
+    <license>GNU/GPL version 2.0</license>
+    <authorEmail>services@omegatheme.com</authorEmail>
+    <authorUrl>http://www.omegatheme.com</authorUrl>
+    <version>2.0</version>
+    <description>OMG System Plugin</description>
+	<scriptfile>install.script.php</scriptfile>
+    <files>
+        <filename>index.html</filename>
+        <filename>install.script.php</filename>
+        <filename plugin="omg">omg.php</filename>
+    </files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="autoload_bootstrap" type="radio"
+					default="1"
+					description="Default is YES. Load bootstrap automatically will load jQuery and bootstrap at first of all and will prevent some jQuery conlfict issue. If selected YES, not need load bootstrap in template."
+					label="Load bootstrap automatically">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="loadRespondIE" type="radio"
+					default="1"
+					description="Default is YES. Load Respond.js for old IE. Load this before all other js."
+					label="Load Respond.js">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

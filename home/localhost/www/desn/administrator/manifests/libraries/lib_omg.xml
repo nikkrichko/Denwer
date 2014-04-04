@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension type="library" version="2.5" method="upgrade">
+	<name>OMG library</name>
+	<libraryname>omg</libraryname>
+    <creationDate>Dec 2012</creationDate>
+    <author>Omegatheme</author>
+    <authorEmail>services@omegatheme.com</authorEmail>
+    <authorUrl>http://www.omegatheme.com</authorUrl>
+    <copyright>(C) 2009-2013 Omegatheme, NetQ Creative Software Co., Ltd. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>2.0</version>
+	<description>OMG template framework and third-party library for Omegatheme template</description>
+	<files folder=".">
+        <file>OMG.php</file>
+        <file>index.html</file>
+		<folder>3rd</folder>
+		<folder>assets</folder>
+		<folder>classes</folder>
+		<folder>core</folder>
+		<folder>elements</folder>
+		<folder>joomla</folder>
+		<folder>overide</folder>
+    </files>
+</extension>

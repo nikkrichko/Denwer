@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" version="2.5" method="upgrade">
+    <name>OMG Menu package</name>
+    <creationDate>Dec 2012</creationDate>
+	<author>OmegaTheme.com</author>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>http://www.omegatheme.com</authorUrl>
+	<copyright>Copyright (C) 2009-2013 Omegatheme, NetQ Creative Software Co., Ltd. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<packagename>omgmenu</packagename>
+	<version>2.0</version>
+	<url>http://www.omegatheme.com</url>
+	<packager>OmegaTheme.com</packager>
+	<packagerurl>http://www.omegatheme.com</packagerurl>
+	<description>
+	<![CDATA[ OMG Menu - help you create dropdown menu and Mega menu system for Joomla! 2.5. This package include module and plugin. ]]>
+	</description>
+	<update>http://www.omegatheme.com</update>
+	<files folder="packages">
+		<file type="module" id="mod_omgmenu">mod_omgmenu.zip</file>
+		<file type="plugin" id="omgmenu" group="system">plg_omgmenu.zip</file>
+	</files>
+</extension>

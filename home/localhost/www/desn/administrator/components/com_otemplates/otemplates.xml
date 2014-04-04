@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension type="component" version="2.5" method="upgrade">
+    <name>OTemplates</name>
+    <creationDate>Dec 2012</creationDate>
+	<author>OmegaTheme.com</author>
+	<authorEmail>services@omegatheme.com</authorEmail>
+	<authorUrl>http://www.omagatheme.com</authorUrl>
+	<copyright>Copyright (C) 2009-2013 Omegatheme, NetQ Creative Software Co., Ltd. All Rights Reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>2.0</version>
+    <description>Template styles and settings management for Omegatheme Joomla! templates</description>
+	
+    <files folder="site">
+        <filename>index.html</filename>
+    </files>
+	<media folder="media" destination="jui">
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>less</folder>
+		<filename>index.html</filename>
+   </media>
+   
+    <administration>
+        <files folder="admin">
+            <filename>otemplates.php</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>language</folder>
+            <folder>models</folder>
+			<folder>views</folder>
+        </files>
+        <languages folder="admin/language">
+            <language tag="en-GB">en-GB/en-GB.com_otemplates.ini</language>
+        </languages>
+    </administration>
+</extension>
