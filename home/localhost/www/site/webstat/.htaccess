@@ -1,0 +1,6 @@
+<Limit GET POST>
+	require valid-user
+</Limit>
+AuthType Basic
+AuthName "/www/crpdesn.kiev.ua/webstat"
+AuthUserFile /var/www/cdcrpde3652/data/etc/49644123.passwd

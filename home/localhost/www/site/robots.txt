@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /photo/
+Disallow: /images/
+Disallow: /files/
+Disallow: /webstat/
+Sitemap: http://www.crpdesn.kiev.ua/sitemap.xml
+Sitemap: http://www.crpdesn.kiev.ua/sitemap.xml.gz
+
+User-agent: Yandex
+Disallow: /photo/
+Disallow: /images/
+Disallow: /files/
+Disallow: /webstat/
+Host: crpdesn.kiev.ua
