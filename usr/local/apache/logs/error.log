@@ -1,21 +1,22 @@
-[Wed Apr 09 09:26:48 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Wed Apr 09 09:26:49 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Wed Apr 09 09:26:49 2014] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.2.12 configured -- resuming normal operations
-[Wed Apr 09 09:26:49 2014] [notice] Server built: Apr 20 2012 18:42:30
-[Wed Apr 09 09:26:49 2014] [notice] Parent: Created child process 2412
-[Wed Apr 09 09:26:49 2014] [notice] Disabled use of AcceptEx() WinSock2 API
-[Wed Apr 09 09:26:50 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Wed Apr 09 09:26:50 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Wed Apr 09 09:26:50 2014] [notice] Child 2412: Child process is running
-[Wed Apr 09 09:26:50 2014] [notice] Child 2412: Acquired the start mutex.
-[Wed Apr 09 09:26:50 2014] [notice] Child 2412: Starting 25 worker threads.
-[Wed Apr 09 09:26:50 2014] [notice] Child 2412: Listening on port 443.
-[Wed Apr 09 09:26:50 2014] [notice] Child 2412: Listening on port 8648.
-[Wed Apr 09 09:26:50 2014] [notice] Child 2412: Listening on port 443.
-[Wed Apr 09 09:26:50 2014] [notice] Child 2412: Listening on port 80.
-[Wed Apr 09 11:25:57 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Wed Apr 09 11:25:58 2014] [notice] Child 2412: Exit event signaled. Child process is ending.
-[Wed Apr 09 11:25:59 2014] [notice] Child 2412: Released the start mutex
-[Wed Apr 09 11:26:00 2014] [notice] Child 2412: All worker threads have exited.
-[Wed Apr 09 11:26:01 2014] [notice] Child 2412: Child process is exiting
-[Wed Apr 09 11:26:04 2014] [notice] Parent: Child process exited successfully.
+[Thu Apr 10 08:49:11 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Apr 10 08:49:11 2014] [warn] pid file Z:/usr/local/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 10 08:49:11 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Apr 10 08:49:11 2014] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.2.12 configured -- resuming normal operations
+[Thu Apr 10 08:49:11 2014] [notice] Server built: Apr 20 2012 18:42:30
+[Thu Apr 10 08:49:11 2014] [notice] Parent: Created child process 3308
+[Thu Apr 10 08:49:11 2014] [notice] Disabled use of AcceptEx() WinSock2 API
+[Thu Apr 10 08:49:12 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Apr 10 08:49:12 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Thu Apr 10 08:49:12 2014] [notice] Child 3308: Child process is running
+[Thu Apr 10 08:49:12 2014] [notice] Child 3308: Acquired the start mutex.
+[Thu Apr 10 08:49:12 2014] [notice] Child 3308: Starting 25 worker threads.
+[Thu Apr 10 08:49:12 2014] [notice] Child 3308: Listening on port 443.
+[Thu Apr 10 08:49:12 2014] [notice] Child 3308: Listening on port 8648.
+[Thu Apr 10 08:49:12 2014] [notice] Child 3308: Listening on port 443.
+[Thu Apr 10 08:49:12 2014] [notice] Child 3308: Listening on port 80.
+[Thu Apr 10 14:25:08 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 10 14:25:08 2014] [notice] Child 3308: Exit event signaled. Child process is ending.
+[Thu Apr 10 14:25:09 2014] [notice] Child 3308: Released the start mutex
+[Thu Apr 10 14:25:09 2014] [notice] Child 3308: All worker threads have exited.
+[Thu Apr 10 14:25:09 2014] [notice] Child 3308: Child process is exiting
+[Thu Apr 10 14:25:10 2014] [notice] Parent: Child process exited successfully.
